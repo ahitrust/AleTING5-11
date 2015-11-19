@@ -51,7 +51,7 @@ sequelize.sync()
                 Videos.bulkCreate(
                         [
                           {etiquetaVideo: 'Taylor Swift - Shake It Off',   direccionVideo: 'https://youtu.be/nfWlot6h_JM?list=PL2NnS82s_tdU-oqbHD7PUUduA8MsL8TiD', duracionVideo: '2:30', generoVideo: 'POP'},
-                          { etiquetaVideo: 'Meghan Trainor - All About That Bass',   direccionVideo: 'https://youtu.be/7PCkvCPvDXk?list=PL2NnS82s_tdU-oqbHD7PUUduA8MsL8TiD', duracionVideo: '2:42', generoVideo: 'POP'}
+                          {etiquetaVideo: 'Meghan Trainor - All About That Bass',   direccionVideo: 'https://youtu.be/7PCkvCPvDXk?list=PL2NnS82s_tdU-oqbHD7PUUduA8MsL8TiD', duracionVideo: '2:42', generoVideo: 'POP'}
                         ]
                 )
 

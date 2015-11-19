@@ -14,4 +14,12 @@ router.get('/', function(req, res) {
 router.get('/videos', videoController.index);
 
 
+/*Get first row*/
+
+router.get('/videos/1', videoController.fil1);
+
+/*Get second row*/
+
+router.get('/videos/2', videoController.fil2);
+
 module.exports = router;
