@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
       { etiquetaVideo: DataTypes.STRING,
         direccionVideo: DataTypes.STRING,
 	   duracionVideo: DataTypes.STRING,
-	   generoVideo: Datatypes.STRING
+	   generoVideo: DataTypes.STRING
       }
     );
   }
